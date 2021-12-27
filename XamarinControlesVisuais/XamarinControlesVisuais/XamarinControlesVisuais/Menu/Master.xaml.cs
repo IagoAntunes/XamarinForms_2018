@@ -19,6 +19,10 @@ namespace XamarinControlesVisuais.Menu
         private void GoActivityIndicatorPage(object sender,EventArgs args)
         {
             Detail = new Controles.ActivityIndicatorPage();
+        }        
+        private void GoProgressBarPage(object sender,EventArgs args)
+        {
+            Detail = new Controles.ProgressBarPage();
         }
     }
 }
