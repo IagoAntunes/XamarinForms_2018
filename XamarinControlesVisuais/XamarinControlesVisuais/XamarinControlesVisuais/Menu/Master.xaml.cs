@@ -47,6 +47,10 @@ namespace XamarinControlesVisuais.Menu
         private void GoTimerPicker(object sender, EventArgs args)
         {
             Detail = new Controles.TimePickerPage();
+        }        
+        private void GoPicker(object sender, EventArgs args)
+        {
+            Detail = new Controles.PickerPage();
         }
     }
 }
