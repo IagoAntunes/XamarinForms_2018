@@ -11,6 +11,7 @@
                 <Button Text="ActivityIndicator" Clicked="GoActivityIndicatorPage"/>
                 <Button Text="ProgressBar" Clicked="GoProgressBarPage"/>
                 <Button Text="BoxView" Clicked="GoBoxViewPage"/>
+                <Button Text="Label" Clicked="GoLabelPage"/>
             </StackLayout>
         </ContentPage>
         
