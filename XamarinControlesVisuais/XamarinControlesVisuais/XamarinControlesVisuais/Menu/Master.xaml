@@ -10,6 +10,7 @@
             <StackLayout>
                 <Button Text="ActivityIndicator" Clicked="GoActivityIndicatorPage"/>
                 <Button Text="ProgressBar" Clicked="GoProgressBarPage"/>
+                <Button Text="BoxView" Clicked="GoBoxViewPage"/>
             </StackLayout>
         </ContentPage>
         
