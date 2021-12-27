@@ -17,6 +17,7 @@
                 <Button Text="DatePicker" Clicked="GoDatePickerPage"/>
                 <Button Text="TimerPicker" Clicked="GoTimerPicker"/>
                 <Button Text="Picker" Clicked="GoPicker"/>
+                <Button Text="SearchBar" Clicked="GoSearchBarPage"/>
             </StackLayout>
         </ContentPage>
         
