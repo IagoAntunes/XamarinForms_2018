@@ -60,5 +60,13 @@ namespace XamarinControlesVisuais.Menu
         {
             Detail = new Controles.SliderStepper();
         }
+        private void GoSwitchPage(object sender, EventArgs args)
+        {
+            Detail = new Controles.SwitchPage();
+        }
+        private void GoImagePage(object sender, EventArgs args)
+        {
+            Detail = new Controles.ImagePage();
+        }
     }
 }
