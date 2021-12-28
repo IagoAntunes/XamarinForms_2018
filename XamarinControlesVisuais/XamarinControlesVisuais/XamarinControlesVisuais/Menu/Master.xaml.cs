@@ -55,6 +55,10 @@ namespace XamarinControlesVisuais.Menu
         private void GoSearchBarPage(object sender, EventArgs args)
         {
             Detail = new Controles.SearchBarPage();
+        }        
+        private void GoSliderStepper(object sender, EventArgs args)
+        {
+            Detail = new Controles.SliderStepper();
         }
     }
 }

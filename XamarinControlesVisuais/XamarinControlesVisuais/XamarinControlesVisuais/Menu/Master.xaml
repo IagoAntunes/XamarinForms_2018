@@ -18,6 +18,7 @@
                 <Button Text="TimerPicker" Clicked="GoTimerPicker"/>
                 <Button Text="Picker" Clicked="GoPicker"/>
                 <Button Text="SearchBar" Clicked="GoSearchBarPage"/>
+                <Button Text="SliderStepper" Clicked="GoSliderStepper"/>
             </StackLayout>
         </ContentPage>
         
