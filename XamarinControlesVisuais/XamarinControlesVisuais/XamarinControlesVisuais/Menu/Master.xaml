@@ -7,30 +7,38 @@
 
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
-            <StackLayout>
-                <Button Text="ActivityIndicator" Clicked="GoActivityIndicatorPage"/>
-                <Button Text="ProgressBar" Clicked="GoProgressBarPage"/>
-                <Button Text="BoxView" Clicked="GoBoxViewPage"/>
-                <Button Text="Label" Clicked="GoLabelPage"/>
-                <Button Text="Button" Clicked="GoButtonPage"/>
-                <Button Text="EntryEditor" Clicked="GoEntryEditorPage"/>
-                <Button Text="DatePicker" Clicked="GoDatePickerPage"/>
-                <Button Text="TimerPicker" Clicked="GoTimerPicker"/>
-                <Button Text="Picker" Clicked="GoPicker"/>
-                <Button Text="SearchBar" Clicked="GoSearchBarPage"/>
-                <Button Text="SliderStepper" Clicked="GoSliderStepper"/>
-                <Button Text="Switch" Clicked="GoSwitchPage"/>
-                <Button Text="Image" Clicked="GoImagePage"/>
-                <Button Text="TableView" Clicked="GoTableViewPage"/>
-                <Button Text="WebView" Clicked="GoWebViewPage"/>
-            </StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Button Text="ActivityIndicator" Clicked="GoActivityIndicatorPage"/>
+                    <Button Text="ProgressBar" Clicked="GoProgressBarPage"/>
+                    <Button Text="BoxView" Clicked="GoBoxViewPage"/>
+                    <Button Text="Label" Clicked="GoLabelPage"/>
+                    <Button Text="Button" Clicked="GoButtonPage"/>
+                    <Button Text="EntryEditor" Clicked="GoEntryEditorPage"/>
+                    <Button Text="DatePicker" Clicked="GoDatePickerPage"/>
+                    <Button Text="TimerPicker" Clicked="GoTimerPicker"/>
+                    <Button Text="Picker" Clicked="GoPicker"/>
+                    <Button Text="SearchBar" Clicked="GoSearchBarPage"/>
+                    <Button Text="SliderStepper" Clicked="GoSliderStepper"/>
+                    <Button Text="Switch" Clicked="GoSwitchPage"/>
+                    <Button Text="Image" Clicked="GoImagePage"/>
+                    <Button Text="TableView" Clicked="GoTableViewPage"/>
+                    <Button Text="WebView" Clicked="GoWebViewPage"/>
+                </StackLayout>
+            </ScrollView>
         </ContentPage>
         
     </MasterDetailPage.Master>
     
     
     <MasterDetailPage.Detail>
-        <page:MainPage/>
+        <NavigationPage>
+            <x:Arguments>
+                <page:MainPage/>
+            </x:Arguments>
+        </NavigationPage>
+        
+        
 
     </MasterDetailPage.Detail>
     

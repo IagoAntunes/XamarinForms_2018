@@ -14,8 +14,8 @@
             </StackLayout>
             <WebView x:Name="Navegador"
                     Source="https://www.google.com.br/"
-                     Navigating="Carregando"
-                     Navigated="Carregado"
+                     Navigating="ActionCarregando"
+                     Navigated="ActionCarregado"
                      HorizontalOptions="FillAndExpand" 
                      VerticalOptions="FillAndExpand">
                 <!--HTML - Conteudo da pagina
