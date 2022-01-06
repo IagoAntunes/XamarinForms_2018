@@ -33,5 +33,9 @@ namespace Celulas.Menu
         {
             Detail = new NavigationPage(new SwitchCellPage());
         }
+        private void GoPagina5(object sender, EventArgs args)
+        {
+            Detail = new NavigationPage(new ViewCellPage());
+        }
     }
 }
