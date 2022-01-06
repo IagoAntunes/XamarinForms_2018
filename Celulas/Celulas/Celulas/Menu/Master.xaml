@@ -6,7 +6,10 @@
 
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
-            <Button Text="TextCell" Clicked="GoPagina1"/>
+            <StackLayout>
+                <Button Text="TextCell" Clicked="GoPagina1"/>
+                <Button Text="ImageCell" Clicked="GoPagina2"/>
+            </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>
