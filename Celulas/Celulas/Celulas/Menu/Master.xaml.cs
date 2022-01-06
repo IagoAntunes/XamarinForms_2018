@@ -25,5 +25,9 @@ namespace Celulas.Menu
         {
             Detail = new NavigationPage(new ImageCellPage());
         }
+        private void GoPagina3(object sender, EventArgs args)
+        {
+            Detail = new NavigationPage(new EntryCellPage());
+        }
     }
 }
