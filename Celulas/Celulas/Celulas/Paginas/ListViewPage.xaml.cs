@@ -53,6 +53,18 @@ namespace Celulas.Paginas
 
 
         }
+        private void FeriasAction(object sender,EventArgs args)
+        {
+            MenuItem botao = (MenuItem)sender;
+
+            Funcionario func = (Funcionario)botao.CommandParameter;
+
+            DisplayAlert("Titulo: " + func.Nome, "Mensagem:" + func.Nome + "-" + func.Cargo, "Ok");
+        }
+        private void AbonoAction(object sender,EventArgs args)
+        {
+
+        }
     
     }
 }
