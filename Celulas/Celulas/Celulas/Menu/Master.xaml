@@ -16,6 +16,8 @@
 
                 <Label Text="Componentes"/>
                 <Button Text="ListView" Clicked="GoPagina6"/>
+                <Button Text="ListViewButton" Clicked="GoPagina7"/>
+
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>
